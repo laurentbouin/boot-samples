@@ -1,4 +1,4 @@
-package com.example;
+package com.github.laurentbouin;
 
 import com.github.javafaker.Faker;
 import io.swagger.annotations.ApiImplicitParam;

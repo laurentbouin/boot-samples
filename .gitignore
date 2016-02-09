@@ -8,3 +8,13 @@ swagger2/bootex2.iml
 swagger2/bootex2.ipr
 
 swagger2/bootex2.iws
+
+swagger2-admin/.mvn/wrapper/maven-wrapper.jar
+
+swagger2-admin/.mvn/wrapper/maven-wrapper.properties
+
+swagger2-admin/boot-swagger-admin.iml
+
+swagger2-admin/boot-swagger-admin.ipr
+
+swagger2-admin/boot-swagger-admin.iws
