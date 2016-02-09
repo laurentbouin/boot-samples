@@ -12,3 +12,7 @@ In this version you'll find:
 * Start the ````ExampleApplication class```
 * Open [http://localhost:8080/v2/api-docs](http://localhost:8080/v2/api-docs)
 * Open [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+
+You should see this page: 
+
+![image](swagger-ui-html.png)
