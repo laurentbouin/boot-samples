@@ -2,8 +2,6 @@ info:
   version: @pom.version@
   stage: test
 
-
-
 logging:
   file: target/boot-admin-sample.log
 
@@ -12,8 +10,8 @@ spring:
     name: @pom.artifactId@
   boot:
     admin:
-#      context-path: /admin
-      url: http://localhost:8080/
+      context-path: /admin
+      url: http://localhost:8080/admin
   cloud:
     config:
       enabled: false

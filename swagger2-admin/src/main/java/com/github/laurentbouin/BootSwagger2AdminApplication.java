@@ -5,6 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.spi.DocumentationType;
@@ -15,6 +16,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableAdminServer
 @EnableAutoConfiguration
 @EnableSwagger2
+@Configuration
 public class BootSwagger2AdminApplication {
 
 	public static void main(String[] args) {
@@ -22,6 +24,7 @@ public class BootSwagger2AdminApplication {
 	}
 
 	//---- Make a live template of this
+
    @Bean
    public Docket api() {
        return new Docket(DocumentationType.SWAGGER_2)
@@ -30,13 +33,6 @@ public class BootSwagger2AdminApplication {
          .build()
          .apiInfo(apiInfo());
    }
-
-    /**
-     *
-     * THIS IS THE ONE !!!!
-     *
-     */
-
 
     private ApiInfo apiInfo() {
         ApiInfo apiInfo = new ApiInfo(
