@@ -18,3 +18,11 @@ swagger2-admin/boot-swagger-admin.iml
 swagger2-admin/boot-swagger-admin.ipr
 
 swagger2-admin/boot-swagger-admin.iws
+
+*.iml
+
+*.ipr
+
+*.iws
+
+**/target
