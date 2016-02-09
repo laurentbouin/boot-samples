@@ -1,0 +1,29 @@
+info:
+  version: @pom.version@
+  stage: test
+
+
+
+logging:
+  file: target/boot-admin-sample.log
+
+spring:
+  application:
+    name: @pom.artifactId@
+  boot:
+    admin:
+#      context-path: /admin
+      url: http://localhost:8080/
+  cloud:
+    config:
+      enabled: false
+  jackson:
+    serialization:
+     indent-output: true
+
+endpoints:
+  health:
+    sensitive: false
+
+server:
+  port: 8080
